@@ -1,0 +1,220 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body 
+{
+    font-family: 'Open Sans',sans-serif;
+    background-color: #1A1B1F;
+    height: 100%;
+    font-size: 14px;
+    color: #756161;
+}
+
+.contain_front_text 
+{
+	  color: #fff;
+    z-index: 99999;
+    background: #32936F;
+}
+
+.display_movie 
+{
+	color: #fff;
+    z-index: 99999;
+    background: #4781ab;
+}
+
+.other_thingies
+{
+	color: #fff;
+    z-index: 99999;
+	background: #c35151;
+}
+
+.tv-shows-display
+{
+	color: #fff;
+    z-index: 99999;
+	background: #754b4b;
+}
+
+.alert 
+{
+    padding: 27px;
+    border: 1px solid transparent;
+}
+
+.film {
+    margin-bottom: 50px;
+}
+
+.film a h2 {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.film a h2, .twitter:hover {
+    color: #fff;
+}
+
+.film img:hover {
+    opacity: 10;
+    filter: alpha(opacity=100);
+}
+
+.film:hover img {
+    opacity: 10;
+    filter: alpha(opacity=100);
+}
+
+.film img {
+    width: 100%;
+    height: 245px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+.badge, .film img {
+    border-radius: 4px;
+}
+
+.animacija, .play {
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 1s;
+    -vendor-animation-iteration-count: infinite;
+}
+
+.fadeInDown 
+{
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.animated 
+{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.flip {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+}
+
+.play {
+    display: none;
+    top: 90px;
+    left: 75px;
+}
+
+.fa-play-circle:before {
+    content: "\f144";
+}
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+.film .sezona {
+    float: right;
+    margin-left: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    background: #6259AA;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 2px;
+}
